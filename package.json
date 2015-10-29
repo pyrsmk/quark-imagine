@@ -9,10 +9,8 @@
   },
   "main": "src/quark-imagine.js",
   "keywords": [
-    "dom",
-    "css",
-    "event",
-    "events",
+    "image",
+    "loader",
     "quark"
   ],
   "license": "MIT",
