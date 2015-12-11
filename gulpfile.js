@@ -5,7 +5,8 @@ var fs = require('fs'),
 	replace = require('gulp-replace'),
 	merge = require('merge2'),
 	shell = require('gulp-shell'),
-	concat = require('gulp-concat');
+	concat = require('gulp-concat'),
+	rename = require('gulp-rename');
 
 var version = fs.readFileSync('src/quark-imagine.js', {encoding:'utf8'}).match(/^\/\*\! [\w-]+ ([0-9.]+)/)[1];
 
@@ -39,9 +40,11 @@ gulp.task('build', ['version'], function() {
 			.pipe( jshint.reporter('jshint-stylish') )
 	);
 	streams.add(
-		gulp.src( ['./node_modules/pyrsmk-imagine/imagine.min.js', './src/quark-imagine.js'] )
+		gulp.src( ['./node_modules/pyrsmk-imagine/imagine.js', './src/quark-imagine.js'] )
+			.pipe( concat('quark-imagine.js') )
+			.pipe( gulp.dest('.') )
 			.pipe( uglify() )
-			.pipe( concat('quark-imagine.min.js') )
+			.pipe( rename('quark-imagine.min.js') )
 			.pipe( gulp.dest('.') )
 	);
 	return streams;

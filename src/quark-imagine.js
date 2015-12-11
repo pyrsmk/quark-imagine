@@ -1,4 +1,4 @@
-/*! quark-imagine 0.1.1 (https://github.com/pyrsmk/quark-imagine) */
+/*! quark-imagine 0.1.2 (https://github.com/pyrsmk/quark-imagine) */
 
 quark.$._nodeMethods.load = function(success, fail) {
 	if(this.node.nodeName == 'IMG') {
