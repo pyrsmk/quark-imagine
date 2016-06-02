@@ -1,0 +1,27 @@
+{
+  "name": "quark-imagine",
+  "description": "imagine module for quark",
+  "main": "quark-imagine.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pyrsmk/quark-imagine.git"
+  },
+  "keywords": [
+    "micro",
+    "framework",
+	"ready"
+  ],
+  "authors": ["Aurélien Delogu"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pyrsmk/quark-imagine/issues"
+  },
+  "ignore": [
+    ".git/",
+    ".gitignore",
+    "nodes_modules/",
+    "tests/",
+    "gulpfile.js",
+    "package.json"
+  ]
+}

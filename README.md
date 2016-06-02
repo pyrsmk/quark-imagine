@@ -1,4 +1,4 @@
-quark-imagine 0.1.3
+quark-imagine 0.1.4
 ====================
 
 [Imagine](https://github.com/pyrsmk/imagine) module for [quark](https://github.com/pyrsmk/quark).
@@ -8,6 +8,7 @@ Install
 
 ```shell
 npm install quark-imagine
+bower install quark-imagine
 ```
 
 Use
