@@ -1,7 +1,7 @@
 {
   "name": "quark-imagine",
   "description": "imagine module for quark",
-  "main": "quark-imagine.js",
+  "main": "lib/quark-imagine.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/pyrsmk/quark-imagine.git"

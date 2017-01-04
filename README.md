@@ -1,4 +1,4 @@
-quark-imagine 0.1.4
+quark-imagine 0.2.0
 ====================
 
 [Imagine](https://github.com/pyrsmk/imagine) module for [quark](https://github.com/pyrsmk/quark).
