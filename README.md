@@ -1,6 +1,8 @@
 quark-imagine 0.2.0
 ====================
 
+__This project is now obsolete, since imagine is obsolete too__
+
 [Imagine](https://github.com/pyrsmk/imagine) module for [quark](https://github.com/pyrsmk/quark).
 
 Install
